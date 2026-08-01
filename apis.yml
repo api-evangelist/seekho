@@ -1,8 +1,26 @@
 aid: seekho
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/seekho.png
 name: Seekho
-description: 'Seekho is a company surfaced as a portfolio company of bessemer-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Seekho (operated by Keyaro Edutech Pvt Ltd, Bengaluru, India) is a consumer
+  edutainment mobile application delivering short-form learning videos across 50+ categories
+  including stock market investing, spoken English, YouTube monetization, business, cooking,
+  and government-procedure (sarkari) guidance. The platform reports 10 crore+ downloads,
+  40+ lakh learners, 10,000+ videos, and 250+ verified mentors, and is distributed via
+  the Apple App Store and Google Play. Surfaced as a portfolio company of Bessemer Venture
+  Partners. As of this enrichment pass, Seekho publishes a consumer marketing site, a
+  blog, and a creator program but exposes no public developer portal, API documentation,
+  or partner API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/seekho/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Consumer
+- EdTech
+- E-Learning
+- Mobile
+- Video
+- India
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +48,18 @@ maintainers:
 common:
 - type: Website
   url: https://seekho.in/
+- type: Blog
+  url: https://seekho.in/blog/
+- type: Support
+  url: https://seekho.in/contact-us/
+- type: PrivacyPolicy
+  url: https://seekho.in/privacy-policy/
+- type: TermsOfService
+  url: https://seekho.in/terms-and-conditions/
+- type: DomainSecurity
+  url: security/seekho-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
